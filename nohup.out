@@ -1,0 +1,798 @@
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 00:03:12] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:03:12] "GET /static/style.css HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:03:13] "GET /pythonlogin HTTP/1.1" 308 -
+129.137.96.7 - - [12/Feb/2020 00:03:13] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:03:14] "GET /static/style.css HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:03:14] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.7 - - [12/Feb/2020 00:03:17] "GET /pythonlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:03:17] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:03:23] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:03:27] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:03:42] "POST /pythonlogin/register HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:03:44] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:03:50] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:04:11] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:04:14] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:04:17] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.7 - - [12/Feb/2020 00:04:17] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:04:37] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.7 - - [12/Feb/2020 00:04:42] "GET /return-files/ HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'problem.java' ('application/octet-stream')>
+('Number of words in text file :', 149)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/problem.java
+<FileStorage: u'Creative Confidence.docx' ('application/vnd.openxmlformats-officedocument.wordprocessingml.document')>
+('Number of words in text file :', 278)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/susus/Creative_Confidence.docx
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 207, in <module>
+    app.run(host='0.0.0.0',debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 990, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+129.137.96.17 - - [12/Feb/2020 00:12:05] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 00:12:05] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:12] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:13] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 00:12:16] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:29] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:32] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 00:12:32] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:38] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:41] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:46] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:12:55] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:19] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:21] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:29] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:31] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 00:13:31] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:38] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:41] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:13:43] "GET /pythonlogin/home HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/problem.java
+<FileStorage: u'Module11_Assignment.pdf' ('application/pdf')>
+('Number of words in text file :', 13905)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/Module11_Assignment.pdf
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 00:15:44] "GET /pythonlogin HTTP/1.1" 308 -
+129.137.96.17 - - [12/Feb/2020 00:15:44] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:15:51] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:15:54] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:15:57] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:15:59] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:04] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:18] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:20] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:25] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 187, in upload_file
+    return render_template('home.html', username=session['username'],count=len(words),file=name_of_file['filename'])
+TypeError: string indices must be integers, not str
+129.137.96.17 - - [12/Feb/2020 00:16:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:26] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'Module12_STQA.docx' ('application/octet-stream')>
+('Number of words in text file :', 383)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 00:16:55] "GET /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+129.137.96.17 - - [12/Feb/2020 00:16:55] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:55] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:55] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:56] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:16:59] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:17:03] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:17:10] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:17:17] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:17:19] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:17:21] "GET /pythonlogin/home HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'DE1.java' ('application/octet-stream')>
+('Number of words in text file :', 250)
+<FileStorage: u'Oracle.pdf' ('application/pdf')>
+('Number of words in text file :', 8420)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 00:19:37] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:19:40] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:19:42] "GET /pythonlogin/home HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'Module11_Assignment.pdf' ('application/pdf')>
+('Number of words in text file :', 13905)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 00:20:12] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:13] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:17] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:31] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 00:20:31] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:38] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:46] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:49] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:53] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 168, in upload_file
+    f.save(os.path.join('/home/ubuntu/flaskapp/cc_project1/userprofiles/'+session['username'], secure_filename(f.filename)))
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/datastructures.py", line 2800, in save
+    dst = open(dst, "wb")
+IOError: [Errno 21] Is a directory: u'/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/'
+129.137.96.17 - - [12/Feb/2020 00:20:53] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:53] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:53] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:53] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:20:54] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:21:27] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:21:29] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:21:33] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 00:21:33] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:21:39] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 00:21:48] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 00:21:48] "GET /pythonlogin/ HTTP/1.1" 200 -
+172.58.206.206 - - [12/Feb/2020 00:40:01] "GET /pythonlogin/ HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:41:50] "GET /pythonlogin/ HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:41:51] "GET /static/style.css HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:41:51] "GET /favicon.ico HTTP/1.1" 404 -
+172.58.204.117 - - [12/Feb/2020 00:42:03] "POST /pythonlogin/ HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:08] "GET /return-files/ HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:15] "GET /pythonlogin/profile HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:15] "GET /favicon.ico HTTP/1.1" 404 -
+172.58.204.117 - - [12/Feb/2020 00:42:18] "GET /pythonlogin/home HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:18] "GET /favicon.ico HTTP/1.1" 404 -
+172.58.204.117 - - [12/Feb/2020 00:42:24] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 168, in upload_file
+    f.save(os.path.join('/home/ubuntu/flaskapp/cc_project1/userprofiles/'+session['username'], secure_filename(f.filename)))
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/datastructures.py", line 2800, in save
+    dst = open(dst, "wb")
+IOError: [Errno 21] Is a directory: u'/home/ubuntu/flaskapp/cc_project1/userprofiles/susus/'
+172.58.204.117 - - [12/Feb/2020 00:42:24] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:24] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:24] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+172.58.204.117 - - [12/Feb/2020 00:42:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/Module11_Assignment.pdf
+<FileStorage: u'S.Rajagopalan.pdf' ('application/pdf')>
+('Number of words in text file :', 3407)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/S.Rajagopalan.pdf
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'winrm.py' ('application/octet-stream')>
+('Number of words in text file :', 653)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/winrm.py
+/home/ubuntu/flaskapp/cc_project1/userprofiles/susus/Creative_Confidence.docx
+<FileStorage: u'' ('application/octet-stream')>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 01:00:56] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:01:01] "POST /pythonlogin/home/ HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 01:01:01] "GET /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+129.137.96.17 - - [12/Feb/2020 01:01:02] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:01:02] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:01:02] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:01:02] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:01:02] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:01:02] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'' ('application/octet-stream')>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 01:02:04] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 01:02:04] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:02:21] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:02:24] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 167, in upload_file
+    return render_template('home.html', username=session['username'],count=len(words),file=name_of_file)
+UnboundLocalError: local variable 'words' referenced before assignment
+129.137.96.17 - - [12/Feb/2020 01:02:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:02:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:02:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:02:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:02:25] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'' ('application/octet-stream')>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 01:03:12] "GET /pythonlogi HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 01:03:12] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 01:03:15] "GET /pythonlogin/ HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 01:37:46] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:37:49] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 167, in upload_file
+    return render_template('home.html', username=session['username'],count=count['count'],file=filename['filename'])
+NameError: global name 'count' is not defined
+129.137.96.17 - - [12/Feb/2020 01:37:49] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:37:49] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:37:49] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:37:50] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:38:01] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:38:07] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:38:13] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:38:15] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:38:19] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:38:22] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:55:08] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 01:55:08] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:55:15] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:55:22] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:55:26] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 01:55:43] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:12] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 184, in upload_file
+    cursor.execute('UPDATE accounts SET filename = %s WHERE username = %s', [name_of_file,username_session])
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 209, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 315, in _query
+    db.query(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+DataError: (1406, "Data too long for column 'filename' at row 1")
+129.137.96.17 - - [12/Feb/2020 02:18:12] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:12] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:12] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:12] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:12] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:28] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 184, in upload_file
+    cursor.execute('UPDATE accounts SET filename = %s WHERE username = %s', [name_of_file,username_session])
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 209, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 315, in _query
+    db.query(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+DataError: (1406, "Data too long for column 'filename' at row 1")
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'Oracle.pdf' ('application/pdf')>
+('Number of words in text file :', 8420)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/Oracle.pdf
+<FileStorage: u'Module12_STQA.docx' ('application/octet-stream')>
+('Number of words in text file :', 383)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/Module12_STQA.docx
+<FileStorage: u'Module 12 Software Testing and Quality Assurance.docx' ('application/octet-stream')>
+('Number of words in text file :', 667)
+<FileStorage: u'Module 12 Software Testing and Quality Assurance.docx' ('application/octet-stream')>
+('Number of words in text file :', 667)
+<FileStorage: u'Module 12 Software Testing and Quality Assurance.docx' ('application/octet-stream')>
+('Number of words in text file :', 667)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 02:18:52] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 181, in upload_file
+    cursor.execute('UPDATE accounts SET filename = %s WHERE username = %s', [name_of_file,username_session])
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 209, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 315, in _query
+    db.query(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+DataError: (1406, "Data too long for column 'filename' at row 1")
+129.137.96.17 - - [12/Feb/2020 02:18:52] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:52] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:52] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:53] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:58] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:58] "GET /static/style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:18:58] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:19:05] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:05] "GET /static/style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:11] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:13] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:18] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:18] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:19:20] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:30] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:19:32] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:21:48] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:13] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:16] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:19] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 02:25:19] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:26] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:35] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:39] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:25:42] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:28:09] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:28:09] "GET /static/style.css HTTP/1.1" 304 -
+129.137.96.17 - - [12/Feb/2020 02:28:19] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 02:28:19] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:28:20] "GET /pythonlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:32] "POST /pythonlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:36] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:42] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:49] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:52] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:55] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:29:58] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:31:10] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:31:21] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:31:26] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'Module 12 Software Testing and Quality Assurance.docx' ('application/octet-stream')>
+('Number of words in text file :', 667)
+<FileStorage: u'Oracle.pdf' ('application/pdf')>
+('Number of words in text file :', 8420)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/Oracle.pdf
+<FileStorage: u'problem.java' ('application/octet-stream')>
+('Number of words in text file :', 149)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/rajagosk/problem.java
+<FileStorage: u'Oracle.pdf' ('application/pdf')>
+('Number of words in text file :', 8420)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/chup/Oracle.pdf
+<FileStorage: u'Module11_Assignment.pdf' ('application/pdf')>
+('Number of words in text file :', 13905)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 02:37:32] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:37:33] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:37:35] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:37:37] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:37:41] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:37:42] "GET /pythonlogin/home HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 02:39:38] "POST /pythonlogin/home/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flaskapp/cc_project1/main.py", line 167, in upload_file
+    cursor.execute('SELECT count FROM accounts WHERE id = %s', [session['id']])
+UnboundLocalError: local variable 'cursor' referenced before assignment
+129.137.96.17 - - [12/Feb/2020 02:39:38] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:39:38] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:39:38] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:39:38] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:39:38] "GET /pythonlogin/home/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'' ('application/octet-stream')>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 02:40:55] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:00] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:05] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:08] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:09] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:10] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:11] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:12] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:12] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:13] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:41:14] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+192.24.140.15 - - [12/Feb/2020 02:49:19] "GET /pythonlogin/ HTTP/1.1" 200 -
+192.24.140.15 - - [12/Feb/2020 02:49:36] "POST /pythonlogin/ HTTP/1.1" 200 -
+192.24.140.15 - - [12/Feb/2020 02:50:06] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+192.24.140.15 - - [12/Feb/2020 02:50:13] "GET /pythonlogin/profile HTTP/1.1" 200 -
+192.24.140.15 - - [12/Feb/2020 02:50:16] "GET /pythonlogin/home HTTP/1.1" 200 -
+192.24.140.15 - - [12/Feb/2020 02:50:19] "GET /return-files/ HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 297, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 278, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+192.24.140.15 - - [12/Feb/2020 02:50:24] "GET /pythonlogin/logout HTTP/1.1" 302 -
+192.24.140.15 - - [12/Feb/2020 02:50:24] "GET /pythonlogin/ HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flaskapp/cc_project1/main.py', reloading
+<FileStorage: u'Module12_STQA.docx' ('application/octet-stream')>
+('Number of words in text file :', 383)
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'' ('application/octet-stream')>
+<FileStorage: u'A7AD827B-EF79-4726-BF6F-8F55D48B5A58.jpeg' ('image/jpeg')>
+('Number of words in text file :', 54640)
+/home/ubuntu/flaskapp/cc_project1/userprofiles/susus/A7AD827B-EF79-4726-BF6F-8F55D48B5A58.jpeg
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 02:52:47] "GET /accountlogin HTTP/1.1" 308 -
+129.137.96.17 - - [12/Feb/2020 02:52:47] "GET /accountlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:52:50] "GET /accountlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:52:59] "POST /accountlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:53:01] "GET /accountlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:53:05] "POST /accountlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:53:14] "POST /pythonlogin/home/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:55:56] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:56:00] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:56:30] "GET /pythonlogin/ HTTP/1.1" 404 -
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 217, in <module>
+    app.run(host='0.0.0.0',debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 990, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+129.137.96.17 - - [12/Feb/2020 02:56:48] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:56:49] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:56:56] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:57:16] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:57:22] "GET /pythonlogin/ HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 02:57:50] "GET /pythonlogin/ HTTP/1.1" 404 -
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 217, in <module>
+    app.run(host='0.0.0.0',debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 990, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 217, in <module>
+    app.run(host='0.0.0.0',debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 990, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 217, in <module>
+    app.run(host='0.0.0.0',debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 990, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+129.137.96.17 - - [12/Feb/2020 02:58:37] "GET /pythonlogin/ HTTP/1.1" 404 -
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-585-506
+129.137.96.17 - - [12/Feb/2020 02:59:41] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:41] "GET /static/style.css HTTP/1.1" 304 -
+129.137.96.17 - - [12/Feb/2020 02:59:46] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:48] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:49] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:52] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:56] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:57] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 02:59:59] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:00] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:01] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:02] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:03] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:03] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:03] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:04] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 03:00:04] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:00:10] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:01:23] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:02:11] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:02:15] "GET /pythonlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:03:33] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:03:34] "GET /pythonlogin/register HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:03:35] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:03:39] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:05:39] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:05:39] "GET /static/style.css HTTP/1.1" 304 -
+129.137.96.17 - - [12/Feb/2020 03:05:59] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:05:59] "GET /static/style.css HTTP/1.1" 304 -
+129.137.96.17 - - [12/Feb/2020 03:07:21] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:07:21] "GET /static/style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:07:25] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:07:25] "GET /static/style.css HTTP/1.1" 304 -
+129.137.96.17 - - [12/Feb/2020 03:07:26] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:07:27] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:07:53] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:07:53] "GET /static/style.css HTTP/1.1" 304 -
+129.137.96.17 - - [12/Feb/2020 03:07:59] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:08:01] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:08:03] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:08:05] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:08:06] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 03:08:06] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:08:12] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:29] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:29] "GET /static/style.css HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:29] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 03:15:36] "POST /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:36] "GET /favicon.ico HTTP/1.1" 404 -
+129.137.96.17 - - [12/Feb/2020 03:15:51] "POST /pythonlogin/home/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:54] "GET /return-files/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:58] "GET /pythonlogin/profile HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:15:59] "GET /pythonlogin/home HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:16:02] "GET /pythonlogin/logout HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 03:16:02] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:16:04] "GET /pythonlogin/home HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 03:16:04] "GET /pythonlogin/ HTTP/1.1" 200 -
+129.137.96.17 - - [12/Feb/2020 03:16:05] "GET /pythonlogin/profile HTTP/1.1" 302 -
+129.137.96.17 - - [12/Feb/2020 03:16:05] "GET /pythonlogin/ HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 599, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 655, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 329, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 360, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+129.137.96.17 - - [12/Feb/2020 03:16:08] "GET /pythonlogin/ HTTP/1.1" 200 -
